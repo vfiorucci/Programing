@@ -10,7 +10,7 @@ def start_adventure():
     begin = input('Would you like to begin(y/n)? ').lower()
     if begin.lower().strip() == 'y':
         print('Great, lets start!')
-        the_path(name)
+        # the_path(name)
     else:
         print(colored('I will always be here when you are ready to start.', 'magenta'))
     print(colored('End', 'magenta'))
@@ -41,6 +41,7 @@ def the_path():
 
 
 def master():
+    # death.skl_death()
     main_title.title_name()
     main_title.castle()
     the_path()
